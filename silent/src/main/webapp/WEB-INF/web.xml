@@ -20,4 +20,8 @@
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>
+
+  <listener>
+	  <listener-class>com.pkgplan.gae.listener.Struts2ListenerOnGAE</listener-class>
+  </listener>
 </web-app>
