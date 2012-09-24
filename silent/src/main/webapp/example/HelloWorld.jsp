@@ -8,7 +8,8 @@
 <body>
 <h2><s:property value="message"/></h2>
 
-<h3>Languages</h3>
+	<h3><s:text name="HelloWorld"/></h3>
+		<h2><s:property value="%{getText('HelloWorld')}"/></h2>
 <ul>
     <li>
         <s:url id="url" action="HelloWorld">
